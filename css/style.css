@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-    background: rgb(255, 255, 255);
+    background: #fff;
     width: 450px;
     border-radius: 16px;
     box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0, 1), 0 32px 64px -48px rgba(0, 0, 0, 0, 5);
@@ -32,49 +32,14 @@ body {
 /* ************************************************ */
 
 .form {
-    padding: 25px 40px;
-}
-
-.form header {
-    font-size: 30px;
-    font-weight: 800;
-    text-align: center;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #e6e6e6;
-}
-
-.form form {
-    margin: 20px 0;
-}
-
-.form form .error-txt {
-    color: #531017;
-    background: #fcacbb;
-    padding: 8px 10px;
-    text-align: center;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #fcacbb;
-}
-
-
-/* ************************************************ */
-
-
-/*singup form css code*/
-
-
-/* ************************************************ */
-
-.form {
     padding: 25px 30px;
 }
 
-.from header {
+.form header {
     font-size: 25px;
     font-weight: 600;
-    padding-bottom: 10px;
     text-align: center;
+    padding-bottom: 10px;
     border-bottom: 1px solid #e6e6e6;
 }
 
@@ -83,13 +48,13 @@ body {
 }
 
 .form form .error-txt {
-    color: #531017;
-    background: #fcacbb;
+    color: #721c24;
+    background: #f8d7da;
     padding: 8px 10px;
     text-align: center;
     border-radius: 5px;
     margin-bottom: 10px;
-    border: 1px solid #fcacbb;
+    border: 1px solid #f5c6cb;
 }
 
 .form form .name-details {
@@ -119,7 +84,7 @@ form .name-details .field:last-child {
     outline: none;
 }
 
-.from form .input input {
+.form form .input input {
     height: 40px;
     width: 100%;
     font-size: 16px;
@@ -128,18 +93,19 @@ form .name-details .field:last-child {
     border-radius: 5px;
 }
 
-
-/* .from form .image input {
+.form form .image input {
     font-size: 17px;
-} */
+}
 
-.from form .button input {
+.form form .button input {
     margin-top: 13px;
+    width: 100%;
     height: 45px;
-    order: none;
+    border: none;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 400;
     background: #333;
+    color: #fff;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -151,6 +117,11 @@ form .name-details .field:last-child {
     top: 70%;
     transform: translateY(-50%);
     cursor: pointer;
+}
+
+.form form .field i.active::before {
+    color: #333;
+    content: "\f070";
 }
 
 .form .link {
