@@ -71,6 +71,7 @@
     </div>
 
     <script src="js\password-show-hide.js"></script>
+    <script src="js\singup.js"></script>
 </body>
 
 </html>
